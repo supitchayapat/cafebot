@@ -21,7 +21,7 @@ module.exports = class General {
 	}
 	help(message) {
 		message.addField(bot.prefix+"invite", "Well, except for this one.")
-		.addField(bot.prefix+"server", "Invite to the CafeBot server.")
+		.addField(bot.prefix+"server", "Invite to the CafeBot server. (HHAHAHA)")
 		return message; //send the RichEmbed
 	}
 	invite(message) {
